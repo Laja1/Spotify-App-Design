@@ -3,6 +3,11 @@
     "name": "spotify",
     "slug": "spotify",
     "version": "1.0.0",
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": ["js", "jsx", "css"]
+    },
+
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -26,5 +31,6 @@
     "web": {
       "favicon": "./assets/favicon.png"
     }
+    
   }
 }
